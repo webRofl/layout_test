@@ -1,0 +1,10 @@
+@import '../../../styles/vars';
+
+.container {
+  display: flex;
+  padding-left: 256px;
+  gap: 68px;
+  padding-bottom: 170px;
+  padding-top: 130px;
+  background-color: $dark-blue;
+}

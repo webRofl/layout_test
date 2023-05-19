@@ -1,0 +1,24 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.item {
+  margin-bottom: 20px;
+  opacity: 0.6;
+  font-weight: 400;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

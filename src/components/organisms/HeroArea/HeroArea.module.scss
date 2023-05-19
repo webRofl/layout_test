@@ -1,0 +1,34 @@
+@import '../../../styles/vars';
+
+.container {
+  padding-left: 388px;
+  padding-top: 49px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, $dark-blue -41.9%, rgba(255, 255, 255, 0.2) 560.24%)
+}
+
+.image {
+  margin-right: 183px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.playSVG {
+  background: transparent;
+}
+
+.logoBlock {
+  display: flex;
+  gap: 70px;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.mainInfo {
+  display: flex;
+}

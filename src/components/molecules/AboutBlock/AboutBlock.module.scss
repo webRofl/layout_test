@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 261px;
+}
+
+.title {
+  margin-bottom: 32px; 
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: 450;
+  opacity: 0.6;
+}
+
+.website {
+  margin-top: 30px;
+}
+
+.soc {
+  display: flex;
+  gap: 25px;
+  margin-top: 21px;
+  opacity: 0.6;
+}

@@ -1,0 +1,11 @@
+@import '../../../styles/vars';
+
+.container {
+  background-color: $light-blue;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}

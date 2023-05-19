@@ -1,0 +1,48 @@
+@import '../../../styles/vars';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 170px;
+  overflow-x: hidden;
+}
+
+.children {
+  display: flex;
+  gap: 30px;
+  transition: .7s all;
+  width: fit-content;
+  padding: 0 30px;
+}
+
+.points {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.point {
+  cursor: pointer;
+
+  &::after {
+    content: '\A';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: $light-gray;
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0.5;
+  }
+
+  &Active::after {
+    content: '\A';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: $light-gray;
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 1;
+  }
+}

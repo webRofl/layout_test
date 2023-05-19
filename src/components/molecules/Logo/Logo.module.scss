@@ -1,0 +1,19 @@
+@import '../../../styles/vars';
+
+.container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 15px;
+}
+
+.logo {
+  width: 44px;
+  height: 57px;
+}
+
+.name {
+  color: $light-blue;
+  font-weight: 600;
+  font-size: 23px;
+}
