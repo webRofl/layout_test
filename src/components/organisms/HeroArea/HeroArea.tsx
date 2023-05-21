@@ -13,10 +13,10 @@ const HeroArea = () => {
     <div className={s.mainInfo}>
       <Description desc="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups." title="Artificial intelligence & Syber security" prefix="Next genaretion platform" styles={{ paddingTop: 111, marginRight: 114 }}>
         <div className={s.buttonContainer}>
-          <Button styles={{ padding: "15px 30px", fontWeight: 600, fontSize: 20 }}>
+          <Button styles={{ padding: "1rem 2rem", fontWeight: 600, fontSize: '1.5rem' }}>
             Get Started
           </Button>
-          <Button styles={{ padding: "15px 30px", fontWeight: 600, fontSize: 20, display: 'flex', gap: 10 }}>
+          <Button styles={{ padding: "1rem 2rem", fontWeight: 600, fontSize: '1.5rem', display: 'flex', gap: '0.7rem' }}>
             <PlaySVG className={s.playSVG} /> Watch Video
           </Button>
         </div>

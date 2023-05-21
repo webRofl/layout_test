@@ -4,16 +4,16 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 15px;
+  gap: 2rem;
 }
 
 .logo {
-  width: 44px;
-  height: 57px;
+  width: 2.7rem;
+  height: 3.5rem;
 }
 
 .name {
   color: $light-blue;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 1.4rem;
 }

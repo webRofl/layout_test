@@ -3,20 +3,20 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 170px;
+  margin-bottom: 11rem;
   overflow-x: hidden;
 }
 
 .children {
   display: flex;
-  gap: 30px;
+  gap: 1.8rem;
   transition: .7s all;
   width: fit-content;
-  padding: 0 30px;
+  padding: 0 1.8rem;
 }
 
 .points {
-  margin-top: 50px;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
 }
@@ -26,23 +26,23 @@
 
   &::after {
     content: '\A';
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background: $light-gray;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0.7rem;
     opacity: 0.5;
   }
 
   &Active::after {
     content: '\A';
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background: $light-gray;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0.7rem;
     opacity: 1;
   }
 }

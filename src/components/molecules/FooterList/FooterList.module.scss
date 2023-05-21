@@ -2,7 +2,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  margin-right: 80px;
+  margin-right: 5rem;
 
   &:last-child {
     margin-right: 0;
@@ -10,11 +10,11 @@
 }
 
 .title {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .item {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
   opacity: 0.6;
   font-weight: 400;
 
