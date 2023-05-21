@@ -1,15 +1,10 @@
 @import '../../../styles/vars';
 
 .container {
-  padding-left: 24.2rem;
   padding-top: 3rem;
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, $dark-blue -41.9%, rgba(255, 255, 255, 0.2) 560.24%)
-}
-
-.image {
-  margin-right: 11.4rem;
 }
 
 .buttonContainer {
@@ -27,8 +22,16 @@
   gap: 4.3rem;
   margin-top: 5.6rem;
   margin-bottom: 6.2rem;
+  justify-content: center;
 }
 
 .mainInfo {
   display: flex;
+  width: 84rem;
+  margin-left: 24rem;
+
+  @media screen and (max-width: $screen-lg) {
+    justify-content: center;
+    margin-left: 0;
+  }
 }

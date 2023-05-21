@@ -21,7 +21,7 @@ const HeroArea = () => {
           </Button>
         </div>
       </Description>
-      <img src={heroAreImg} alt="hero area image" className={s.image} />
+      <img src={heroAreImg} alt="hero area image" />
     </div>
     <div className={s.logoBlock}>
       <Logo1 />
